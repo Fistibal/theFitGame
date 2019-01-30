@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="new.css" />
+</head>
+<body>
+    <section id="main-section">
+        <container class="content">
+            <h1>Welcome to the Fit Challenge</h1>
+            <h3>Game Rules</h3>
+            <p>- The game has 2 players, playing in rounds
+                - In each turn, a player rolls a dice as many times as he whishes. Each result get added to the other player ROUND score
+                - BUT, if the player rolls a 1, all the other player ROUND score gets lost. After that, it's the next player's turn
+                - The player can choose to 'Hold', which means that the other player ROUND score gets added to his GLOBAL score. After that, it's the next player's turn
+                - The first player to add 100 points on the other player GLOBAL score wins the game.
+                - The loser has to do the random exercise challenge.
+                </p>
+                <form action="#" class="form">
+                    <div class="form-group">
+                        <label class="label">Player 1 </label>
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                           <label class="label">Player 2</label>
+                           <input type="text" class="form-control" placeholder="Name">
+                       </div>
+                       <button type="submit" class="btn" onclick="addName()">Let's Play</button>
+                </form>
+        </container>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
